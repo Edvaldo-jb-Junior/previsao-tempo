@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <title>Previsão do tempo</title>
 </head>
-<body>
-    <section>
-        <input>
-        <button></button>
-        <h2>Tempo em São Paulo</h2>
-        <p>21°C</p>
-        <img/>
-        <p>Nuvens Dispesas</p>
-        <p>Umidade 70%</p>
 
+<body>
+    <section class="principal">
+        <img src="./assets/fundo 2.jpg" class="fundo" />
+
+        <section class="secundaria">
+            <div class="pesquisa">
+                <input placeholder="digite aqui" class="input-cidade">
+                <button onclick="cliqueinoBotao()"><img src="./assets/lupa.png" class="buscar" /></button>
+            </div>
+            <div class="caixa">
+                <h2>Tempo em São Paulo</h2>
+                <p class="temp">21°C</p>
+                <img />
+                <p class="descricao">Nuvens Dispesas</p>
+                <p class="qualidade">Umidade 70%</p>
+            </div>
+        </section>
     </section>
 </body>
 <script src="scripts.js"></script>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+}
+
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.9;
+    position: fixed;
+}
+
+.secundaria {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    background-color: rgb(90, 87, 87);
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 120px 0 0 500px;
+    position: absolute;
+    color: white;
+}
+
+.buscar{
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    outline:none;
+    background-color: #7c7c7c2b;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    outline:none;
+    background-color: #7c7c7c2b;
+    margin-top: 40px;
+    float: right;
+    cursor: pointer;  
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    margin: 40px 0 30px 0;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    font-size: 25px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+}
+
+.caixa{
+    margin: 20px 0 0 10px;
+}
+
+
