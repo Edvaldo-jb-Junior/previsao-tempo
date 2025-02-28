@@ -2,12 +2,13 @@
 let chave = "b118836cc53220aebb82eaa23ff4ba77"
 
 function colocarNaTela(dados){
+    
     document.querySelector(".cidade").innerHTML = " Tempo em " + dados.name
     document.querySelector(".tempo").innerHTML = Math.floor(dados.main.temp)  + " °C "
     document.querySelector(".descricao").innerHTML = dados.weather[0].description
     document.querySelector(".qualidade").innerHTML = " Umidade " + dados.main.humidity + "%"
     document.querySelector(".icone").src = "https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png"
-    console.log(dados)
+    
 }
 
 async function buscarCidade(cidade){
